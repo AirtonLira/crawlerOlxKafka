@@ -102,4 +102,4 @@ services:
       CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
       CONNECT_PLUGIN_PATH: '/usr/share/java'
     volumes:
-      - /home/local/CONDUCTOR/airton.junior/Área de Trabalho/DataStreaming/kafka/:/usr/share/java/kafka-connect-jdbc
+      - /home/local/airton.junior/Área de Trabalho/DataStreaming/kafka/:/usr/share/java/kafka-connect-jdbc
