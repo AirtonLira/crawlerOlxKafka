@@ -43,7 +43,9 @@ func reiceveKafka() {
 			firstHash.Write([]byte(dados))
 
 			hashstr := hex.EncodeToString(firstHash.Sum(nil))
-			dadosimovel.Endereco = e.ChildText(`dd[class="sc-ifAKCX sc-1f2ug0x-1 kFBcla"]`)
+			enderecocep := e.ChildText(`dd[class="sc-ifAKCX sc-1f2ug0x-1 kFBcla"]`)
+			enderecocep = enderecocep[0:8]
+			dadosimovel.Endereco = enderecocep
 			dadosimovel.Hashdados = hashstr
 			ret, _ := json.Marshal(dadosimovel)
 
