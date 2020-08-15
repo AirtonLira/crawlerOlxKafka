@@ -1,0 +1,5 @@
+kafka:
+  host: localhost:9092
+  partition: 0
+  minbytes: 10e3
+  maxbytes: 10e6
