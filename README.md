@@ -5,7 +5,7 @@
 ![Desenho do fluxo](https://i.ibb.co/4FksF3K/desenho.jpg)
 
 > Exemplo da mensagem final do topico de sink do Kafka connect:
->{"ValorImovel":"225.000","DescricaoImovel":"2 quartos | 61m² | 1 vaga","PublicacaoImovel":"Hoje11:14","LinkDetalhes":"https://pb.olx.com.br/paraiba/imoveis/>excelente-empreendimento-02-e-03-quartos-na-torre-718100990","Endereco":"58040295",>"Hashdados":"229b4e58a1af4b31f3cf4c6abb8323410395da07169230b52e6c8c0b4e0a2fbf"}
+<code> {"ValorImovel":"225.000","DescricaoImovel":"2 quartos | 61m² | 1 vaga","PublicacaoImovel":"Hoje11:14","LinkDetalhes":"https://pb.olx.com.br/paraiba/imoveis/>excelente-empreendimento-02-e-03-quartos-na-torre-718100990","Endereco":"58040295","Hashdados":"229b4e58a1af4b31f3cf4c6abb8323410395da07169230b52e6c8c0b4e0a2fbf"} </code>
 
 
 - Estrutura do projeto: 
