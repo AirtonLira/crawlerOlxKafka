@@ -15,3 +15,6 @@
 
 - resources
 - application.yml
+
+- Exemplo de request no Kafka connect para geração do arquivo json a partir do topico final:
+![GitHub Logo](https://i.ibb.co/H7s8LJm/postman.png)
